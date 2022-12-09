@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #222;
+    background: black;
 }
 
 .cube {
@@ -111,6 +111,8 @@ body {
     transform: rotateY(calc(90deg * var(--i))) 
     translateZ(150px);
     transform-style: preserve-3d;
+    border: 10px solid blueviolet;
+    filter: drop-shadow(0 0 20px blueviolet);
     transition: 0.5s;
 }
 
@@ -126,4 +128,8 @@ body {
     background: rgba(0, 0, 0, 0.35);
     filter: blur(50px);
 } 
+
+.imagen {
+    background-color: aqua;
+}
 
